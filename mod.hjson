@@ -1,0 +1,8 @@
+name: "krypton"
+displayName: "Krypton"
+author: "Roy Harper"
+description: "Bbfashbjhcbabfhsbafbhajbf"
+version: "1.0"
+minGameVersion: "136"
+dependencies: [ ]
+hidden: false

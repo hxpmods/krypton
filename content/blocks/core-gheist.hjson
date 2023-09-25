@@ -1,0 +1,12 @@
+isFirstTier: true
+type: CoreBlock
+unitType: alpha
+health: 1100
+itemCapacity: 4000
+size: 3
+alwaysUnlocked: true
+category: effect
+research: { 
+    root: true 
+    planet: krypton
+}

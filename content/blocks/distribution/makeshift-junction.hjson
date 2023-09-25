@@ -1,0 +1,7 @@
+type: Junction
+requirements: [
+    scrap/2
+]
+health: 45
+category: distribution
+research: magnetic-conveyor

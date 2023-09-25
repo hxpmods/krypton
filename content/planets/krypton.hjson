@@ -1,0 +1,75 @@
+generator: AsteroidGenerator
+parent: sun
+radius: 0.7
+minZoom: 0.9
+atmosphereRadIn: 0
+atmosphereRadOut: 0.2
+atmosphereColor: 00FF00
+iconColor: e38f5b
+orbitRadius: 7
+orbitOffset: 110
+accessible: true
+allowLaunchToNumbered: false
+alwaysUnlocked: true
+totalRadius: 1.8
+bloom: true
+defaultCore: core-gheist
+itemWhitelist: [ iron, kryptonite, metaglass, ice, silicon, graphite, scrap]
+mesh: [
+  {
+    type: SunMesh 
+    divisions: 5
+    octaves: 1
+    persistence: 0.5
+    scl: 2
+    pow: 1
+    mag: 1
+    colorScale: 1
+    colors: [
+      37d3ff,
+      78b6ea,
+      6b81d4
+    ]
+  }
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.63
+    color1: e3b15b
+    color2: f06c6c
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.1
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.6045
+    color1: 4a4b53
+    color2: 4a4b53
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.5
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+]
+cloudMesh: {
+  type: HexSkyMesh
+  speed: -2.8
+  divisions: 5
+  radius: 0.15
+  color: e3b578bb
+  octaves: 3
+  persistence: 0.5
+  scl: 0.7
+  thresh: 0.43
+}

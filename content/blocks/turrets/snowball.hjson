@@ -1,0 +1,59 @@
+type: ItemTurret
+size: 2
+health: 400
+range: 160
+targetGround: false
+reload: 30
+rotateSpeed: 6
+recoil:3
+shoot:
+{
+    shots: 4
+    shotDelay : 2
+}
+inaccuracy :12
+research: core-gheist
+researchCostMultiplier : 0.05
+category:turret
+requirements: [iron/45]
+ammoTypes: {
+    iron :{
+        type: FlakBulletType
+        lifetime : 60
+        ammoMultiplier: 1
+        splashDamage: 30
+        splashDamageRadius : 24
+        width: 6
+        height:6
+        damage : 3
+        speed: 3
+        frontColor: FFFFFF
+        homingStrength: 0.5
+    }
+    ice : {
+        lifetime : 120
+        type: FlakBulletType
+        ammoMultiplier: 2
+        frontColor: DDCCFF
+        backColor: 9D9AF9
+        width: 6
+        height:6
+        speed: 1.5
+        damage: 3
+        splashDamage: 20
+        splashDamageRadius : 20
+        fragBullet: {
+            damage: 2
+            speed: 3
+            lifetime: 15
+            width: 3
+            height: 4
+            shrinkY: 1
+            frontColor: DDCCFF
+            backColor: 9D9AF9
+            despawnEffect: none
+            status: freezing
+        }
+        status : freezing
+    }
+}

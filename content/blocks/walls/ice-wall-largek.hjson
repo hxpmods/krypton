@@ -1,0 +1,10 @@
+type:Wall
+health : 640
+researchCostMultiplier : 0.1
+requirements :
+[
+    ice/24
+]
+category: defense
+research: core-gheist
+size: 2

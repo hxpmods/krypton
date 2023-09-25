@@ -1,0 +1,13 @@
+type: AttributeCrafter
+category: production
+attribute: ice
+size:2
+outputItem: ice/1
+researchCostMultiplier: 0.1
+research: precision-drill
+baseEfficiency: 0
+craftTime : 100
+requirements: [
+    iron/60
+]
+craftEffect: pulverizeSmall

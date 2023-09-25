@@ -1,0 +1,20 @@
+type: Drill
+category: production
+attribute: ice
+size:2
+tier: 5
+drillTime : 900
+research: core-gheist
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 1
+    optional: true
+    booster: true
+  }
+}
+liquidBoostIntensity : 2.5
+requirements: [
+    iron/10
+]
+alwaysUnlocked: true

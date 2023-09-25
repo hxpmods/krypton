@@ -1,0 +1,13 @@
+type: AttributeCrafter
+category: production
+attribute: heat
+size:2
+outputLiquid: water/0.5
+researchCostMultiplier: 0.1
+research: ice-packer
+baseEfficiency: 0.2
+craftTime : 60
+requirements: [
+    iron/80
+]
+consumes : {items:[ice/1]}

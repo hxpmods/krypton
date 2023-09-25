@@ -1,0 +1,12 @@
+type: GenericCrafter
+category: crafting
+size:3
+outputItems: []
+researchCostMultiplier: 0.2
+research: "precision-drill"
+craftTime : 60
+requirements: [
+    iron/80
+    kryptonite/3
+]
+consumes : {items:[scrap/5] power: 3}

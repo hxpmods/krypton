@@ -1,0 +1,29 @@
+weapons: [{    
+    name: laser-beam
+    x: 2
+    y: 2
+    reload: 22
+    recoil: 3
+    rotationLimit: 180
+    rotate: false
+    rotateSpeed: 2
+    shootSound: laser
+    shootCone: 20
+    shake: 4
+    alternate: false
+    yRand: 0.0
+    xRand: 0.1
+    predictTarget: true
+    inaccuracy: 0.2
+    parentizeEffects: true
+    bullet: {
+      type: LaserBulletType
+      damage: 30
+      length: 210
+      lifetime: 30
+      pierceCap: 5
+      colors: [ff0000, ffcccc, ffcbdd]
+      sideAngle: 20
+      width : 3
+    }
+}]

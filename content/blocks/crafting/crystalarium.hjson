@@ -1,0 +1,17 @@
+type: GenericCrafter
+category: production
+size:2
+outputItem: kryptonite/1
+researchCostMultiplier: 0.2
+research: core-gheist
+craftTime : 480
+requirements: [
+    iron/80
+    kryptonite/10
+]
+consumes : {
+    items:[
+        kryptonite-shard/1 
+        scrap/1
+    ]
+}

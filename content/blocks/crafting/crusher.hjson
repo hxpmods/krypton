@@ -1,0 +1,13 @@
+type: GenericCrafter
+category: crafting
+size:3
+outputItem: kryptonite-shard/3
+researchCostMultiplier: 0.2
+research: "precision-drill"
+craftTime : 300
+requirements: [
+    iron/80
+]
+updateEffect: pulverizeMedium
+craftEffect: mine
+consumes : {items:[kryptonite/1] power: 3}

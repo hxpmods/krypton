@@ -1,0 +1,8 @@
+type: Router
+requirements: [
+    iron/2
+    scrap/2
+]
+health: 45
+category: distribution
+research: magnetic-conveyor

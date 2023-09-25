@@ -1,0 +1,9 @@
+type: Conveyor
+requirements: [
+    iron/1
+]
+health: 45
+category: distribution
+research: core-gheist
+speed: 0.05
+alwaysUnlocked: true
